@@ -27,4 +27,24 @@
   font-size: 1.5em;
   font-family: "Dancing Script", cursive;
 }
-
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-top: 2em;
+  margin-right: 3em;
+  border: none;
+  background: #fff;
+  padding: 10px;
+  color: #14dada;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+}
+.btn:hover {
+  background: #024247;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
