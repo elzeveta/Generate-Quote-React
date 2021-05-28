@@ -9,4 +9,22 @@
   text-align: center;
 }
 
+.quote {
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+  background: linear-gradient(to right, #78ffd6, #007991);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.quote h2 {
+  font-size: 1.5em;
+  font-family: "Lobster", cursive;
+}
+.quote small {
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+}
 
