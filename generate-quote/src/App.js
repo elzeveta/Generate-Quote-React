@@ -40,10 +40,10 @@ class App extends React.Component {
           <small>
             -{this.state.randomQuote !== null && this.state.randomQuote.author}-
           </small>
-          <button className="btn" onClick={this.randomQuoteHandler}>
+        </div>
+        <button className="btn" onClick={this.randomQuoteHandler}>
             Next
           </button>
-        </div>
       </div>
     );
   }
